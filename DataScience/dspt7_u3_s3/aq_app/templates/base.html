@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TwitOff - {{ title }}</title>
+    <link rel="stylesheet" href="https://unpkg.com/picnic"/>
+  </head>
+  <style>
+    body {
+      background-color: black;
+      color: maroon;
+    }
+  </style>
+  <body>
+    {% for item in record %}
+      <b><p>{{ item }}</p></b>
+    {% endfor %}
+  </body>
+</html
